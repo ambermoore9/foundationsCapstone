@@ -1,26 +1,3 @@
-// var selectedType = document.getElementById("types").value;
-// var selectedPrice = document.getElementById("prices").value;
-// let stocks = getData();
-// async function getData() {
-//     return new Promise((resolve) => {
-//         axios.get("http://localhost:5005/stocks").then(res => {
-//             stocks = res.data 
-//             resolve();
-//         })
-//     })
-// }
-// async function mount() {
-//     await getData()
-// }
-// mount();
-//     //displayData([selectedType][selectedPrice]);
-
-// function displayData(result) {
-//     var resultDiv = document.getElementById("result");
-//     resultDiv.innerHTML = result;
-// }
-// console.log(stocks);
-
 const optionsForm = document.getElementById("optionsForm");
 let stocks;
 async function getData() {
